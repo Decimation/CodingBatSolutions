@@ -11,8 +11,7 @@ public class CB_Warmup1 {
 
 	public boolean sleepIn(boolean weekday, boolean vacation) {
 		if (vacation == weekday) return true;
-		if (vacation) return true;
-		return false;
+		return vacation;
 	}
 
 	public boolean monkeyTrouble(boolean aSmile, boolean bSmile) {

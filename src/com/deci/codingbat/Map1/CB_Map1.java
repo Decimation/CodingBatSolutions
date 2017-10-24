@@ -2,6 +2,8 @@ package com.deci.codingbat.Map1;
 
 import java.util.Map;
 
+@SuppressWarnings({"WeakerAccess", "unused"})
+
 public class CB_Map1 {
 
 	public CB_Map1() {
@@ -17,10 +19,6 @@ public class CB_Map1 {
 		}
 
 		return map;
-	}
-
-	private boolean mapContainsValue(Map<String, String> map, Object key) {
-		return (map.get(key) != null);
 	}
 
 	public Map<String, String> topping1(Map<String, String> map) {

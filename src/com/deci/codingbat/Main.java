@@ -8,6 +8,6 @@ public class Main {
 
     public static void main(String[] args) {
 		CB_Warmup1 cb = new CB_Warmup1();
-		System.out.println(cb.backAround("cat"));
+		System.out.println(cb.close10(13,7));
 	}
 }

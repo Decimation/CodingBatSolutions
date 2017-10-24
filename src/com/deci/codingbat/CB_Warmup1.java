@@ -1,4 +1,4 @@
-package com.deci.codingbat.Warmup1;
+package com.deci.codingbat;
 
 import java.util.Arrays;
 import java.util.Collections;

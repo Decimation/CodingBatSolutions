@@ -1,4 +1,4 @@
-package com.deci.codingbat.Logic1;
+package com.deci.codingbat;
 
 @SuppressWarnings({"WeakerAccess", "unused"})
 

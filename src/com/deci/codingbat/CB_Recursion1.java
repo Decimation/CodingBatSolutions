@@ -1,4 +1,4 @@
-package com.deci.codingbat.Recursion1;
+package com.deci.codingbat;
 
 @SuppressWarnings({"WeakerAccess", "unused"})
 

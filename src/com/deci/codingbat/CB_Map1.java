@@ -1,4 +1,4 @@
-package com.deci.codingbat.Map1;
+package com.deci.codingbat;
 
 import java.util.Map;
 

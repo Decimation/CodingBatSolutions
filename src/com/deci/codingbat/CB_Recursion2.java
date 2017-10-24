@@ -1,4 +1,4 @@
-package com.deci.codingbat.Recursion2;
+package com.deci.codingbat;
 
 public class CB_Recursion2 {
 

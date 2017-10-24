@@ -1,4 +1,4 @@
-package com.deci.codingbat.AP1;
+package com.deci.codingbat;
 
 import java.util.ArrayList;
 import java.util.List;

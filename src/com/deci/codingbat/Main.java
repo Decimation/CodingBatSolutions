@@ -6,7 +6,7 @@ public class Main {
 
 		CB_String1 cb = new CB_String1();
 		System.out.println(cb.lastTwo("coding"));
-
+		System.out.println(cb.middleTwo("string"));
 
 		int methodCount = 0;
 		methodCount += getMethodCount(CB_AP1.class);

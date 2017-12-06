@@ -4,10 +4,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-		CB_String1 cb = new CB_String1();
-		System.out.println(cb.lastTwo("coding"));
-		System.out.println(cb.middleTwo("string"));
-
 		int methodCount = 0;
 		methodCount += getMethodCount(CB_AP1.class);
 		methodCount += getMethodCount(CB_Functional1.class);
@@ -19,6 +15,10 @@ public class Main {
 		methodCount += getMethodCount(CB_Warmup1.class);
 
 		System.out.println(methodCount);
+
+		CB_String2 cs2 = new CB_String2();
+		String s = cs2.zipZap("zipXzap");
+		System.out.println(s);
 	}
 
 	private static int getMethodCount(Class clazz) {

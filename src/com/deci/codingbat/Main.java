@@ -19,6 +19,7 @@ public class Main {
 		CB_String2 cs2 = new CB_String2();
 		String s = cs2.zipZap("zipXzap");
 		System.out.println(s);
+		System.out.println(cs2.plusOut("12xy34", "xy"));
 	}
 
 	private static int getMethodCount(Class clazz) {

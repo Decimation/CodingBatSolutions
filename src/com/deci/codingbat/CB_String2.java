@@ -1,7 +1,44 @@
 package com.deci.codingbat;
 
+
+import java.util.regex.Matcher;
+
 @SuppressWarnings("WeakerAccess")
 public class CB_String2 {
+
+	/*public String plusOut(String str, String word) {
+		String regex = "[^"+ word + "/$]";
+		String out = str.replaceAll(regex, "+");
+		return out;
+	}*/
+
+	public boolean sameStarChar(String str) {
+		final char[] ch = str.toCharArray();
+		int asterisks = 0;
+		int count = 0;
+
+		for (int i = 0; i < ch.length; i++) {
+			if (ch[i] == '*') {
+				asterisks++;
+				if (i == 0 || i == ch.length - 1)
+					count++;
+				if (i - 1 >= 0 && i + 1 < ch.length)
+					if (ch[i - 1] == ch[i + 1])
+						count++;
+			}
+		}
+		return asterisks == count;
+	}
+
+	public String repeatSeparator(String word, String sep, int count) {
+		String out = "";
+		for (int i = 0; i < count; i++) {
+			out += word;
+			if (i + 1 != count)
+				out += sep;
+		}
+		return out;
+	}
 
 	public String doubleChar(String str) {
 		StringBuilder sb = new StringBuilder();

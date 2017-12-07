@@ -7,6 +7,15 @@ public class CB_Logic1 {
 	public CB_Logic1() {
 	}
 
+	public boolean love6(int a, int b) {
+		int diff = a - b;
+		int sum = a + b;
+
+		if (a == 6 || b == 6) return true;
+		return (sum == 6 || diff >= 0 || diff == -6) && (a + b == 6 || b - a == 6 || a - b == 6 || Math.abs(diff) == 6);
+
+	}
+
 	private boolean isInRangeIncl(int a, int min, int max) {
 		return (max >= a && a >= max);
 	}

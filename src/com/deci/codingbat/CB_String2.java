@@ -12,6 +12,10 @@ public class CB_String2 {
 		return out;
 	}*/
 
+	public boolean xyzThere(String str) {
+		return !str.contains(".xyz") && str.contains("xyz");
+	}
+
 	public boolean sameStarChar(String str) {
 		final char[] ch = str.toCharArray();
 		int asterisks = 0;

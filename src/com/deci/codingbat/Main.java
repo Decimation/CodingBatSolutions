@@ -1,28 +1,26 @@
 package com.deci.codingbat;
 
+import java.util.ArrayList;
+
+import static java.lang.System.*;
+
 public class Main {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-		int methodCount = 0;
-		methodCount += getMethodCount(CB_AP1.class);
-		methodCount += getMethodCount(CB_Functional1.class);
-		methodCount += getMethodCount(CB_Functional2.class);
-		methodCount += getMethodCount(CB_Logic1.class);
-		methodCount += getMethodCount(CB_Map1.class);
-		methodCount += getMethodCount(CB_Recursion1.class);
-		methodCount += getMethodCount(CB_Recursion2.class);
-		methodCount += getMethodCount(CB_Warmup1.class);
 
-		System.out.println(methodCount);
+		CB_Logic2 cb = new CB_Logic2();
+		System.out.println(cb.round10(15));
+		System.out.println(cb.round10(12));
+		System.out.println(cb.round10(20));
+		System.out.println(cb.round10(17));
 
-		CB_String2 cs2 = new CB_String2();
-		String s = cs2.zipZap("zipXzap");
-		System.out.println(s);
-		System.out.println(cs2.plusOut("12xy34", "xy"));
+
+
+
 	}
 
 	private static int getMethodCount(Class clazz) {
-    	return clazz.getDeclaredMethods().length;
+		return clazz.getDeclaredMethods().length;
 	}
 }
